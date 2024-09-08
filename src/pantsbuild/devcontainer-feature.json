@@ -1,0 +1,20 @@
+{
+    "name": "Pantsbuild",
+    "id": "pantsbuild",
+    "version": "0.0.1",
+    "description": "Installs Pantsbuild wrapper, and optionally installs a default version",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "none"
+            ],
+            "default": "latest",
+            "description": "Version of pants engine."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/python"
+    ]
+}

@@ -1,7 +1,7 @@
 
-# My Favorite Color (color)
+# Pantsbuild
 
-A feature to remind you of your favorite color
+A feature to install Pants launcher and
 
 ## Example Usage
 
